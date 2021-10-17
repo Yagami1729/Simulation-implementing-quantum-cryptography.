@@ -9,7 +9,7 @@ This is a project submitted for the Ahmedabad University campaign at Qiskit Fall
 * Aniruddha Sharma
 
 
-#Quantum Cryptography Implementation
+# Quantum Cryptography Implementation
 
 We are trying to make a simulation that successfully implements either the BB84 or the E91 protocols of quantum cryptography.
 
@@ -25,7 +25,7 @@ A trusted third-party provides quantum entangled qubits to both the server and t
 After that, qubits are measured in three different basis states.
 The basis states used are shared and then the qubits with same basis states are used as key and the qubits with different basis states are used to check bell's inequality.
 
-#Why opt for quantum cryptography?
+# Why opt for quantum cryptography?
 
 Our current cryptography standards use one way functions to encrypt and decrypt the messages.
 Quantum computers which might become mainstream in upcoming years make it very easy to get the answers to these one way functions using Shor's algorithm.
