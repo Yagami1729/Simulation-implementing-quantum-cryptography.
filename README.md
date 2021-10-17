@@ -13,14 +13,14 @@ This is a project submitted for the Ahmedabad University campaign at Qiskit Fall
 
 We are trying to make a simulation that successfully implements either the BB84 or the E91 protocols of quantum cryptography.
 
-The BB84 Protocol
+* The BB84 Protocol
 
 * The BB84 protocol mainly depends of the unreliability of qubits when measured from different basis states.
 * The user is provided a bunch of qubits by the server and then they are measured in different basis states by both the user and the server.
 * Then the user shares the basis states used by them to the server. All the basis states are compared and then sent back to user.
 * The basis states that do not match are thrown away, and the states that did match are the key that can be used to encrypt and decrypt the messages.
 
-The E91 Protocol
+* The E91 Protocol
 
 * The E91 protocol depends on quantum entanglement of qubits to maintain a secure channel.
 * A trusted third-party provides quantum entangled qubits to both the server and the user.
