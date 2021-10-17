@@ -15,7 +15,7 @@ We are trying to make a simulation that successfully implements either the BB84 
 
 The BB84 Protocol
 
-*The BB84 protocol mainly depends of the unreliability of qubits when measured from different basis states.// 
+*The BB84 protocol mainly depends of the unreliability of qubits when measured from different basis states.
 *The user is provided a bunch of qubits by the server and then they are measured in different basis states by both the user and the server.
 *Then the user shares the basis states used by them to the server. All the basis states are compared and then sent back to user.
 *The basis states that do not match are thrown away, and the states that did match are the key that can be used to encrypt and decrypt the messages.
